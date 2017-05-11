@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D7FF5DD88C8BB6BAB816476 /* libPods-XuYuFM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E5AE36BE9BE77CD0C5780B /* libPods-XuYuFM.a */; };
 		FF0DA9F71EC45C1700C7E560 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0DA9F61EC45C1700C7E560 /* main.m */; };
 		FF0DA9FA1EC45C1700C7E560 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0DA9F91EC45C1700C7E560 /* AppDelegate.m */; };
 		FF0DA9FD1EC45C1700C7E560 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0DA9FC1EC45C1700C7E560 /* ViewController.m */; };
@@ -16,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9902F0A0DE74F69D13028596 /* Pods-XuYuFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XuYuFM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XuYuFM/Pods-XuYuFM.debug.xcconfig"; sourceTree = "<group>"; };
+		A2E9972D6FE6689FC2536F2D /* Pods-XuYuFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XuYuFM.release.xcconfig"; path = "Pods/Target Support Files/Pods-XuYuFM/Pods-XuYuFM.release.xcconfig"; sourceTree = "<group>"; };
+		F6E5AE36BE9BE77CD0C5780B /* libPods-XuYuFM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XuYuFM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF0DA9F21EC45C1700C7E560 /* XuYuFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XuYuFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF0DA9F61EC45C1700C7E560 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FF0DA9F81EC45C1700C7E560 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -33,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D7FF5DD88C8BB6BAB816476 /* libPods-XuYuFM.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24911AE81458FBFAA6B77F1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9902F0A0DE74F69D13028596 /* Pods-XuYuFM.debug.xcconfig */,
+				A2E9972D6FE6689FC2536F2D /* Pods-XuYuFM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		33E95E961305B233FB42A4AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6E5AE36BE9BE77CD0C5780B /* libPods-XuYuFM.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FF0DA9E91EC45C1700C7E560 = {
 			isa = PBXGroup;
 			children = (
 				FF0DA9F41EC45C1700C7E560 /* XuYuFM */,
 				FF0DA9F31EC45C1700C7E560 /* Products */,
+				24911AE81458FBFAA6B77F1C /* Pods */,
+				33E95E961305B233FB42A4AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF0DAA091EC45C1700C7E560 /* Build configuration list for PBXNativeTarget "XuYuFM" */;
 			buildPhases = (
+				BC6DBF0313F18BC3659B914D /* [CP] Check Pods Manifest.lock */,
 				FF0DA9EE1EC45C1700C7E560 /* Sources */,
 				FF0DA9EF1EC45C1700C7E560 /* Frameworks */,
 				FF0DA9F01EC45C1700C7E560 /* Resources */,
+				28C0D2147882DC1DA4EF512F /* [CP] Embed Pods Frameworks */,
+				2A611188DCB6A9CE3B9BDA3F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,6 +171,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28C0D2147882DC1DA4EF512F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XuYuFM/Pods-XuYuFM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A611188DCB6A9CE3B9BDA3F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XuYuFM/Pods-XuYuFM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC6DBF0313F18BC3659B914D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FF0DA9EE1EC45C1700C7E560 /* Sources */ = {
@@ -270,6 +345,7 @@
 		};
 		FF0DAA0A1EC45C1700C7E560 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9902F0A0DE74F69D13028596 /* Pods-XuYuFM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XuYuFM/Info.plist;
@@ -281,6 +357,7 @@
 		};
 		FF0DAA0B1EC45C1700C7E560 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2E9972D6FE6689FC2536F2D /* Pods-XuYuFM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XuYuFM/Info.plist;
