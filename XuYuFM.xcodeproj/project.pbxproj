@@ -24,6 +24,7 @@
 		FF6530D21ECC46C80026F48C /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6530CD1ECC46C80026F48C /* CALayer+PauseAimate.m */; };
 		FF6530D31ECC46C80026F48C /* UIImage+XMGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6530CF1ECC46C80026F48C /* UIImage+XMGImage.m */; };
 		FF6530D41ECC46C80026F48C /* UIView+XMGLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6530D11ECC46C80026F48C /* UIView+XMGLayout.m */; };
+		FF7FF46F1ED2C03900DFE1BF /* TestVC3.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7FF46E1ED2C03900DFE1BF /* TestVC3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,8 @@
 		FF6530CF1ECC46C80026F48C /* UIImage+XMGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XMGImage.m"; sourceTree = "<group>"; };
 		FF6530D01ECC46C80026F48C /* UIView+XMGLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGLayout.h"; sourceTree = "<group>"; };
 		FF6530D11ECC46C80026F48C /* UIView+XMGLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGLayout.m"; sourceTree = "<group>"; };
+		FF7FF46D1ED2C03900DFE1BF /* TestVC3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC3.h; sourceTree = "<group>"; };
+		FF7FF46E1ED2C03900DFE1BF /* TestVC3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +137,8 @@
 				FF6530A01ECBFC990026F48C /* TestVC.m */,
 				FF6530A11ECBFC990026F48C /* TestVC2.h */,
 				FF6530A21ECBFC990026F48C /* TestVC2.m */,
+				FF7FF46D1ED2C03900DFE1BF /* TestVC3.h */,
+				FF7FF46E1ED2C03900DFE1BF /* TestVC3.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -351,6 +356,7 @@
 				FF6530BE1ECC280A0026F48C /* XYNavigationController.m in Sources */,
 				FF6530C91ECC384C0026F48C /* XYNavBar.m in Sources */,
 				FF6530C41ECC347A0026F48C /* XYMiddleView.m in Sources */,
+				FF7FF46F1ED2C03900DFE1BF /* TestVC3.m in Sources */,
 				FF6530D31ECC46C80026F48C /* UIImage+XMGImage.m in Sources */,
 				FF6530C11ECC319E0026F48C /* XYTabBar.m in Sources */,
 				FF6530A61ECBFC990026F48C /* TestVC.m in Sources */,
