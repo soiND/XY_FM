@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="L0V-m0-jqm" customClass="XYMiddleView">
+            <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tabbar_np_shadow" translatesAutoresizingMaskIntoConstraints="NO" id="3bE-zP-RH3">
+                    <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tabbar_np_normal" translatesAutoresizingMaskIntoConstraints="NO" id="S4d-Ia-rFB">
+                    <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tabbar_np_playshadow" translatesAutoresizingMaskIntoConstraints="NO" id="q5a-EN-1BC">
+                    <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zxy_icon" translatesAutoresizingMaskIntoConstraints="NO" id="aar-Ez-gIZ">
+                    <rect key="frame" x="11" y="11" width="43" height="43"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FSd-Ck-b1a">
+                    <rect key="frame" x="10" y="10" width="45" height="45"/>
+                    <state key="normal" image="tabbar_np_play"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="3bE-zP-RH3" secondAttribute="trailing" id="1d5-pX-R1G"/>
+                <constraint firstItem="3bE-zP-RH3" firstAttribute="leading" secondItem="L0V-m0-jqm" secondAttribute="leading" id="4uN-J8-OEi"/>
+                <constraint firstItem="S4d-Ia-rFB" firstAttribute="leading" secondItem="L0V-m0-jqm" secondAttribute="leading" id="5os-tq-lY0"/>
+                <constraint firstItem="aar-Ez-gIZ" firstAttribute="leading" secondItem="L0V-m0-jqm" secondAttribute="leading" constant="11" id="GKS-HS-qJd"/>
+                <constraint firstItem="FSd-Ck-b1a" firstAttribute="top" secondItem="L0V-m0-jqm" secondAttribute="top" constant="10" id="I5V-51-eOJ"/>
+                <constraint firstItem="3bE-zP-RH3" firstAttribute="top" secondItem="L0V-m0-jqm" secondAttribute="top" id="ICi-tJ-qrS"/>
+                <constraint firstAttribute="bottom" secondItem="S4d-Ia-rFB" secondAttribute="bottom" id="IzY-iP-3px"/>
+                <constraint firstAttribute="bottom" secondItem="3bE-zP-RH3" secondAttribute="bottom" id="LlB-4I-Ejz"/>
+                <constraint firstItem="q5a-EN-1BC" firstAttribute="leading" secondItem="L0V-m0-jqm" secondAttribute="leading" id="McJ-tK-Wm2"/>
+                <constraint firstAttribute="bottom" secondItem="aar-Ez-gIZ" secondAttribute="bottom" constant="11" id="Oij-TD-jHw"/>
+                <constraint firstItem="S4d-Ia-rFB" firstAttribute="top" secondItem="L0V-m0-jqm" secondAttribute="top" id="PXU-ay-d2j"/>
+                <constraint firstAttribute="trailing" secondItem="aar-Ez-gIZ" secondAttribute="trailing" constant="11" id="Q3j-zS-hqi"/>
+                <constraint firstAttribute="bottom" secondItem="FSd-Ck-b1a" secondAttribute="bottom" constant="10" id="XFP-7b-84H"/>
+                <constraint firstItem="q5a-EN-1BC" firstAttribute="top" secondItem="L0V-m0-jqm" secondAttribute="top" id="aBa-Ck-Szu"/>
+                <constraint firstAttribute="bottom" secondItem="q5a-EN-1BC" secondAttribute="bottom" id="cqA-lg-frU"/>
+                <constraint firstAttribute="trailing" secondItem="FSd-Ck-b1a" secondAttribute="trailing" constant="10" id="dvo-wK-3s2"/>
+                <constraint firstItem="aar-Ez-gIZ" firstAttribute="top" secondItem="L0V-m0-jqm" secondAttribute="top" constant="11" id="tqv-Yv-m1l"/>
+                <constraint firstAttribute="trailing" secondItem="S4d-Ia-rFB" secondAttribute="trailing" id="uJh-XM-di5"/>
+                <constraint firstAttribute="trailing" secondItem="q5a-EN-1BC" secondAttribute="trailing" id="xCg-hC-I9i"/>
+                <constraint firstItem="FSd-Ck-b1a" firstAttribute="leading" secondItem="L0V-m0-jqm" secondAttribute="leading" constant="10" id="zCR-s5-J7v"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="middleImageView" destination="aar-Ez-gIZ" id="o6H-65-poE"/>
+                <outlet property="playBtn" destination="FSd-Ck-b1a" id="pqd-hE-knv"/>
+            </connections>
+            <point key="canvasLocation" x="-21.5" y="-114.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="tabbar_np_normal" width="65" height="65"/>
+        <image name="tabbar_np_play" width="50" height="50"/>
+        <image name="tabbar_np_playshadow" width="50" height="50"/>
+        <image name="tabbar_np_shadow" width="75" height="65"/>
+        <image name="zxy_icon" width="48" height="48"/>
+    </resources>
+</document>

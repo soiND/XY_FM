@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		6D7FF5DD88C8BB6BAB816476 /* libPods-XuYuFM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E5AE36BE9BE77CD0C5780B /* libPods-XuYuFM.a */; };
-		FF0DA9F71EC45C1700C7E560 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0DA9F61EC45C1700C7E560 /* main.m */; };
-		FF0DA9FA1EC45C1700C7E560 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0DA9F91EC45C1700C7E560 /* AppDelegate.m */; };
-		FF0DA9FD1EC45C1700C7E560 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0DA9FC1EC45C1700C7E560 /* ViewController.m */; };
 		FF0DAA001EC45C1700C7E560 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0DA9FE1EC45C1700C7E560 /* Main.storyboard */; };
 		FF0DAA021EC45C1700C7E560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF0DAA011EC45C1700C7E560 /* Assets.xcassets */; };
 		FF0DAA051EC45C1700C7E560 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0DAA031EC45C1700C7E560 /* LaunchScreen.storyboard */; };
+		FF6530A31ECBFC990026F48C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF65309C1ECBFC990026F48C /* AppDelegate.m */; };
+		FF6530A51ECBFC990026F48C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF65309E1ECBFC990026F48C /* main.m */; };
+		FF6530A61ECBFC990026F48C /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6530A01ECBFC990026F48C /* TestVC.m */; };
+		FF6530A71ECBFC990026F48C /* TestVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6530A21ECBFC990026F48C /* TestVC2.m */; };
+		FF6530B91ECC1E930026F48C /* XYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6530B81ECC1E930026F48C /* XYTabBarController.m */; };
+		FF6530BE1ECC280A0026F48C /* XYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6530BD1ECC280A0026F48C /* XYNavigationController.m */; };
+		FF6530C11ECC319E0026F48C /* XYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6530C01ECC319E0026F48C /* XYTabBar.m */; };
+		FF6530C41ECC347A0026F48C /* XYMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6530C31ECC347A0026F48C /* XYMiddleView.m */; };
+		FF6530C61ECC348A0026F48C /* XYMiddleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF6530C51ECC348A0026F48C /* XYMiddleView.xib */; };
+		FF6530C91ECC384C0026F48C /* XYNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6530C81ECC384C0026F48C /* XYNavBar.m */; };
+		FF6530D21ECC46C80026F48C /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6530CD1ECC46C80026F48C /* CALayer+PauseAimate.m */; };
+		FF6530D31ECC46C80026F48C /* UIImage+XMGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6530CF1ECC46C80026F48C /* UIImage+XMGImage.m */; };
+		FF6530D41ECC46C80026F48C /* UIView+XMGLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6530D11ECC46C80026F48C /* UIView+XMGLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,15 +31,34 @@
 		A2E9972D6FE6689FC2536F2D /* Pods-XuYuFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XuYuFM.release.xcconfig"; path = "Pods/Target Support Files/Pods-XuYuFM/Pods-XuYuFM.release.xcconfig"; sourceTree = "<group>"; };
 		F6E5AE36BE9BE77CD0C5780B /* libPods-XuYuFM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XuYuFM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF0DA9F21EC45C1700C7E560 /* XuYuFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XuYuFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF0DA9F61EC45C1700C7E560 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FF0DA9F81EC45C1700C7E560 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		FF0DA9F91EC45C1700C7E560 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FF0DA9FB1EC45C1700C7E560 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FF0DA9FC1EC45C1700C7E560 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FF0DA9FF1EC45C1700C7E560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF0DAA011EC45C1700C7E560 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF0DAA041EC45C1700C7E560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FF0DAA061EC45C1700C7E560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF65309B1ECBFC990026F48C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF65309C1ECBFC990026F48C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF65309D1ECBFC990026F48C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF65309E1ECBFC990026F48C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF65309F1ECBFC990026F48C /* TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
+		FF6530A01ECBFC990026F48C /* TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
+		FF6530A11ECBFC990026F48C /* TestVC2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC2.h; sourceTree = "<group>"; };
+		FF6530A21ECBFC990026F48C /* TestVC2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC2.m; sourceTree = "<group>"; };
+		FF6530B71ECC1E930026F48C /* XYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYTabBarController.h; sourceTree = "<group>"; };
+		FF6530B81ECC1E930026F48C /* XYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYTabBarController.m; sourceTree = "<group>"; };
+		FF6530BC1ECC280A0026F48C /* XYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYNavigationController.h; sourceTree = "<group>"; };
+		FF6530BD1ECC280A0026F48C /* XYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYNavigationController.m; sourceTree = "<group>"; };
+		FF6530BF1ECC319E0026F48C /* XYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYTabBar.h; sourceTree = "<group>"; };
+		FF6530C01ECC319E0026F48C /* XYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYTabBar.m; sourceTree = "<group>"; };
+		FF6530C21ECC347A0026F48C /* XYMiddleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYMiddleView.h; sourceTree = "<group>"; };
+		FF6530C31ECC347A0026F48C /* XYMiddleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYMiddleView.m; sourceTree = "<group>"; };
+		FF6530C51ECC348A0026F48C /* XYMiddleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYMiddleView.xib; sourceTree = "<group>"; };
+		FF6530C71ECC384C0026F48C /* XYNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYNavBar.h; sourceTree = "<group>"; };
+		FF6530C81ECC384C0026F48C /* XYNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYNavBar.m; sourceTree = "<group>"; };
+		FF6530CC1ECC46C80026F48C /* CALayer+PauseAimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+PauseAimate.h"; sourceTree = "<group>"; };
+		FF6530CD1ECC46C80026F48C /* CALayer+PauseAimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+PauseAimate.m"; sourceTree = "<group>"; };
+		FF6530CE1ECC46C80026F48C /* UIImage+XMGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XMGImage.h"; sourceTree = "<group>"; };
+		FF6530CF1ECC46C80026F48C /* UIImage+XMGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XMGImage.m"; sourceTree = "<group>"; };
+		FF6530D01ECC46C80026F48C /* UIView+XMGLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGLayout.h"; sourceTree = "<group>"; };
+		FF6530D11ECC46C80026F48C /* UIView+XMGLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGLayout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,14 +111,7 @@
 		FF0DA9F41EC45C1700C7E560 /* XuYuFM */ = {
 			isa = PBXGroup;
 			children = (
-				FF0DA9F81EC45C1700C7E560 /* AppDelegate.h */,
-				FF0DA9F91EC45C1700C7E560 /* AppDelegate.m */,
-				FF0DA9FB1EC45C1700C7E560 /* ViewController.h */,
-				FF0DA9FC1EC45C1700C7E560 /* ViewController.m */,
-				FF0DA9FE1EC45C1700C7E560 /* Main.storyboard */,
-				FF0DAA011EC45C1700C7E560 /* Assets.xcassets */,
-				FF0DAA031EC45C1700C7E560 /* LaunchScreen.storyboard */,
-				FF0DAA061EC45C1700C7E560 /* Info.plist */,
+				FF6530951ECBFC990026F48C /* Classes */,
 				FF0DA9F51EC45C1700C7E560 /* Supporting Files */,
 			);
 			path = XuYuFM;
@@ -98,9 +120,108 @@
 		FF0DA9F51EC45C1700C7E560 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FF0DA9F61EC45C1700C7E560 /* main.m */,
+				FF6530A81ECBFCEA0026F48C /* Resource */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF6530951ECBFC990026F48C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FF6530961ECBFC990026F48C /* MainModule */,
+				FF6530991ECBFC990026F48C /* Other */,
+				FF65309F1ECBFC990026F48C /* TestVC.h */,
+				FF6530A01ECBFC990026F48C /* TestVC.m */,
+				FF6530A11ECBFC990026F48C /* TestVC2.h */,
+				FF6530A21ECBFC990026F48C /* TestVC2.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FF6530961ECBFC990026F48C /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				FF6530971ECBFC990026F48C /* Controller */,
+				FF6530981ECBFC990026F48C /* View */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		FF6530971ECBFC990026F48C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF6530B71ECC1E930026F48C /* XYTabBarController.h */,
+				FF6530B81ECC1E930026F48C /* XYTabBarController.m */,
+				FF6530BC1ECC280A0026F48C /* XYNavigationController.h */,
+				FF6530BD1ECC280A0026F48C /* XYNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF6530981ECBFC990026F48C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF6530BF1ECC319E0026F48C /* XYTabBar.h */,
+				FF6530C01ECC319E0026F48C /* XYTabBar.m */,
+				FF6530C71ECC384C0026F48C /* XYNavBar.h */,
+				FF6530C81ECC384C0026F48C /* XYNavBar.m */,
+				FF6530C21ECC347A0026F48C /* XYMiddleView.h */,
+				FF6530C31ECC347A0026F48C /* XYMiddleView.m */,
+				FF6530C51ECC348A0026F48C /* XYMiddleView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF6530991ECBFC990026F48C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				FF6530CA1ECC46C80026F48C /* BaseClasses */,
+				FF65309A1ECBFC990026F48C /* System */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FF65309A1ECBFC990026F48C /* System */ = {
+			isa = PBXGroup;
+			children = (
+				FF65309B1ECBFC990026F48C /* AppDelegate.h */,
+				FF65309C1ECBFC990026F48C /* AppDelegate.m */,
+				FF65309D1ECBFC990026F48C /* Info.plist */,
+				FF65309E1ECBFC990026F48C /* main.m */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		FF6530A81ECBFCEA0026F48C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FF0DA9FE1EC45C1700C7E560 /* Main.storyboard */,
+				FF0DAA011EC45C1700C7E560 /* Assets.xcassets */,
+				FF0DAA031EC45C1700C7E560 /* LaunchScreen.storyboard */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		FF6530CA1ECC46C80026F48C /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				FF6530CB1ECC46C80026F48C /* Category */,
+			);
+			name = BaseClasses;
+			path = ../../BaseClasses;
+			sourceTree = "<group>";
+		};
+		FF6530CB1ECC46C80026F48C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FF6530CC1ECC46C80026F48C /* CALayer+PauseAimate.h */,
+				FF6530CD1ECC46C80026F48C /* CALayer+PauseAimate.m */,
+				FF6530CE1ECC46C80026F48C /* UIImage+XMGImage.h */,
+				FF6530CF1ECC46C80026F48C /* UIImage+XMGImage.m */,
+				FF6530D01ECC46C80026F48C /* UIView+XMGLayout.h */,
+				FF6530D11ECC46C80026F48C /* UIView+XMGLayout.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF6530C61ECC348A0026F48C /* XYMiddleView.xib in Resources */,
 				FF0DAA051EC45C1700C7E560 /* LaunchScreen.storyboard in Resources */,
 				FF0DAA021EC45C1700C7E560 /* Assets.xcassets in Resources */,
 				FF0DAA001EC45C1700C7E560 /* Main.storyboard in Resources */,
@@ -225,9 +347,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF0DA9FD1EC45C1700C7E560 /* ViewController.m in Sources */,
-				FF0DA9FA1EC45C1700C7E560 /* AppDelegate.m in Sources */,
-				FF0DA9F71EC45C1700C7E560 /* main.m in Sources */,
+				FF6530B91ECC1E930026F48C /* XYTabBarController.m in Sources */,
+				FF6530BE1ECC280A0026F48C /* XYNavigationController.m in Sources */,
+				FF6530C91ECC384C0026F48C /* XYNavBar.m in Sources */,
+				FF6530C41ECC347A0026F48C /* XYMiddleView.m in Sources */,
+				FF6530D31ECC46C80026F48C /* UIImage+XMGImage.m in Sources */,
+				FF6530C11ECC319E0026F48C /* XYTabBar.m in Sources */,
+				FF6530A61ECBFC990026F48C /* TestVC.m in Sources */,
+				FF6530A51ECBFC990026F48C /* main.m in Sources */,
+				FF6530A31ECBFC990026F48C /* AppDelegate.m in Sources */,
+				FF6530A71ECBFC990026F48C /* TestVC2.m in Sources */,
+				FF6530D21ECC46C80026F48C /* CALayer+PauseAimate.m in Sources */,
+				FF6530D41ECC46C80026F48C /* UIView+XMGLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +425,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -336,7 +467,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -348,7 +479,8 @@
 			baseConfigurationReference = 9902F0A0DE74F69D13028596 /* Pods-XuYuFM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = XuYuFM/Info.plist;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = XuYuFM/Classes/Other/System/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xuyu.www.XuYuFM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -360,7 +492,8 @@
 			baseConfigurationReference = A2E9972D6FE6689FC2536F2D /* Pods-XuYuFM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = XuYuFM/Info.plist;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = XuYuFM/Classes/Other/System/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xuyu.www.XuYuFM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -386,6 +519,7 @@
 				FF0DAA0B1EC45C1700C7E560 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
